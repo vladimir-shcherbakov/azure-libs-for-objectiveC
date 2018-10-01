@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88DC3BC2161A0F2004F33CE /* ComputerVisionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC36A2161A0F2004F33CE /* ComputerVisionClient.m */; };
+		C88DC3BD2161A0F2004F33CE /* OcrRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC36C2161A0F2004F33CE /* OcrRegion.m */; };
+		C88DC3BE2161A0F2004F33CE /* DomainModelResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3702161A0F2004F33CE /* DomainModelResults.m */; };
+		C88DC3BF2161A0F2004F33CE /* ImageUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3722161A0F2004F33CE /* ImageUrl.m */; };
+		C88DC3C02161A0F2004F33CE /* TextOperationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3732161A0F2004F33CE /* TextOperationResult.m */; };
+		C88DC3C12161A0F2004F33CE /* ImageDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3752161A0F2004F33CE /* ImageDescription.m */; };
+		C88DC3C22161A0F2004F33CE /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3782161A0F2004F33CE /* Category.m */; };
+		C88DC3C32161A0F2004F33CE /* ImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC37A2161A0F2004F33CE /* ImageMetadata.m */; };
+		C88DC3C42161A0F2004F33CE /* VisualFeatureTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC37F2161A0F2004F33CE /* VisualFeatureTypes.m */; };
+		C88DC3C52161A0F2004F33CE /* ImageDescriptionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3802161A0F2004F33CE /* ImageDescriptionDetails.m */; };
+		C88DC3C62161A0F2004F33CE /* AdultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3812161A0F2004F33CE /* AdultInfo.m */; };
+		C88DC3C72161A0F2004F33CE /* ImageCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3822161A0F2004F33CE /* ImageCaption.m */; };
+		C88DC3C82161A0F2004F33CE /* LandmarkResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3832161A0F2004F33CE /* LandmarkResults.m */; };
+		C88DC3C92161A0F2004F33CE /* RecognitionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3842161A0F2004F33CE /* RecognitionResult.m */; };
+		C88DC3CA2161A0F2004F33CE /* TextOperationStatusCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3852161A0F2004F33CE /* TextOperationStatusCodes.m */; };
+		C88DC3CB2161A0F2004F33CE /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3882161A0F2004F33CE /* Line.m */; };
+		C88DC3CC2161A0F2004F33CE /* RecognizeTextInStreamHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC38E2161A0F2004F33CE /* RecognizeTextInStreamHeaders.m */; };
+		C88DC3CD2161A0F2004F33CE /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC38F2161A0F2004F33CE /* Details.m */; };
+		C88DC3CE2161A0F2004F33CE /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3902161A0F2004F33CE /* Word.m */; };
+		C88DC3CF2161A0F2004F33CE /* TextRecognitionMode.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3922161A0F2004F33CE /* TextRecognitionMode.m */; };
+		C88DC3D02161A0F2004F33CE /* ListModelsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3942161A0F2004F33CE /* ListModelsResult.m */; };
+		C88DC3D12161A0F2004F33CE /* LandmarksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3962161A0F2004F33CE /* LandmarksModel.m */; };
+		C88DC3D22161A0F2004F33CE /* FaceRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3992161A0F2004F33CE /* FaceRectangle.m */; };
+		C88DC3D32161A0F2004F33CE /* ImageType.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC39B2161A0F2004F33CE /* ImageType.m */; };
+		C88DC3D42161A0F2004F33CE /* OcrWord.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC39C2161A0F2004F33CE /* OcrWord.m */; };
+		C88DC3D52161A0F2004F33CE /* CelebritiesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC39D2161A0F2004F33CE /* CelebritiesModel.m */; };
+		C88DC3D62161A0F2004F33CE /* ImageAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A22161A0F2004F33CE /* ImageAnalysis.m */; };
+		C88DC3D72161A0F2004F33CE /* ImageTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A32161A0F2004F33CE /* ImageTag.m */; };
+		C88DC3D82161A0F2004F33CE /* CelebrityResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A42161A0F2004F33CE /* CelebrityResults.m */; };
+		C88DC3D92161A0F2004F33CE /* OcrResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A52161A0F2004F33CE /* OcrResult.m */; };
+		C88DC3DA2161A0F2004F33CE /* OcrLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A62161A0F2004F33CE /* OcrLine.m */; };
+		C88DC3DB2161A0F2004F33CE /* ComputerVisionErrorCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3A92161A0F2004F33CE /* ComputerVisionErrorCodes.m */; };
+		C88DC3DC2161A0F2004F33CE /* ColorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3AA2161A0F2004F33CE /* ColorInfo.m */; };
+		C88DC3DD2161A0F2004F33CE /* OcrLanguages.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3AC2161A0F2004F33CE /* OcrLanguages.m */; };
+		C88DC3DE2161A0F2004F33CE /* TagResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3AD2161A0F2004F33CE /* TagResult.m */; };
+		C88DC3DF2161A0F2004F33CE /* RecognizeTextHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3B22161A0F2004F33CE /* RecognizeTextHeaders.m */; };
+		C88DC3E02161A0F2004F33CE /* ModelDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3B42161A0F2004F33CE /* ModelDescription.m */; };
+		C88DC3E12161A0F2004F33CE /* ComputerVisionError.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3B82161A0F2004F33CE /* ComputerVisionError.m */; };
+		C88DC3E22161A0F2004F33CE /* CategoryDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3B92161A0F2004F33CE /* CategoryDetail.m */; };
+		C88DC3E32161A0F2004F33CE /* FaceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3BA2161A0F2004F33CE /* FaceDescription.m */; };
+		C88DC3E42161A0F2004F33CE /* Gender.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3BB2161A0F2004F33CE /* Gender.m */; };
+		C88DC3E62161A937004F33CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DC3E52161A937004F33CE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C82A7E0721601F7000797EB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C82A7E0921601F7000797EB0 /* azure-libs-for-objectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "azure-libs-for-objectiveC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88DC3692161A0F2004F33CE /* ComputerVisionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerVisionClient.h; sourceTree = "<group>"; };
+		C88DC36A2161A0F2004F33CE /* ComputerVisionClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerVisionClient.m; sourceTree = "<group>"; };
+		C88DC36C2161A0F2004F33CE /* OcrRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcrRegion.m; sourceTree = "<group>"; };
+		C88DC36D2161A0F2004F33CE /* CelebritiesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebritiesModel.h; sourceTree = "<group>"; };
+		C88DC36E2161A0F2004F33CE /* ImageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageType.h; sourceTree = "<group>"; };
+		C88DC36F2161A0F2004F33CE /* OcrWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcrWord.h; sourceTree = "<group>"; };
+		C88DC3702161A0F2004F33CE /* DomainModelResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainModelResults.m; sourceTree = "<group>"; };
+		C88DC3712161A0F2004F33CE /* FaceRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRectangle.h; sourceTree = "<group>"; };
+		C88DC3722161A0F2004F33CE /* ImageUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUrl.m; sourceTree = "<group>"; };
+		C88DC3732161A0F2004F33CE /* TextOperationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextOperationResult.m; sourceTree = "<group>"; };
+		C88DC3742161A0F2004F33CE /* LandmarksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandmarksModel.h; sourceTree = "<group>"; };
+		C88DC3752161A0F2004F33CE /* ImageDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDescription.m; sourceTree = "<group>"; };
+		C88DC3762161A0F2004F33CE /* ListModelsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModelsResult.h; sourceTree = "<group>"; };
+		C88DC3772161A0F2004F33CE /* ComputerVisionErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerVisionErrorCodes.h; sourceTree = "<group>"; };
+		C88DC3782161A0F2004F33CE /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		C88DC3792161A0F2004F33CE /* OcrLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcrLine.h; sourceTree = "<group>"; };
+		C88DC37A2161A0F2004F33CE /* ImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMetadata.m; sourceTree = "<group>"; };
+		C88DC37B2161A0F2004F33CE /* OcrResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcrResult.h; sourceTree = "<group>"; };
+		C88DC37C2161A0F2004F33CE /* CelebrityResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebrityResults.h; sourceTree = "<group>"; };
+		C88DC37D2161A0F2004F33CE /* ImageTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTag.h; sourceTree = "<group>"; };
+		C88DC37E2161A0F2004F33CE /* ImageAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAnalysis.h; sourceTree = "<group>"; };
+		C88DC37F2161A0F2004F33CE /* VisualFeatureTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualFeatureTypes.m; sourceTree = "<group>"; };
+		C88DC3802161A0F2004F33CE /* ImageDescriptionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDescriptionDetails.m; sourceTree = "<group>"; };
+		C88DC3812161A0F2004F33CE /* AdultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdultInfo.m; sourceTree = "<group>"; };
+		C88DC3822161A0F2004F33CE /* ImageCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCaption.m; sourceTree = "<group>"; };
+		C88DC3832161A0F2004F33CE /* LandmarkResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandmarkResults.m; sourceTree = "<group>"; };
+		C88DC3842161A0F2004F33CE /* RecognitionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognitionResult.m; sourceTree = "<group>"; };
+		C88DC3852161A0F2004F33CE /* TextOperationStatusCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextOperationStatusCodes.m; sourceTree = "<group>"; };
+		C88DC3862161A0F2004F33CE /* TagResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagResult.h; sourceTree = "<group>"; };
+		C88DC3872161A0F2004F33CE /* OcrLanguages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcrLanguages.h; sourceTree = "<group>"; };
+		C88DC3882161A0F2004F33CE /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		C88DC3892161A0F2004F33CE /* ColorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorInfo.h; sourceTree = "<group>"; };
+		C88DC38A2161A0F2004F33CE /* FaceDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDescription.h; sourceTree = "<group>"; };
+		C88DC38B2161A0F2004F33CE /* Gender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		C88DC38C2161A0F2004F33CE /* CategoryDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDetail.h; sourceTree = "<group>"; };
+		C88DC38D2161A0F2004F33CE /* ComputerVisionError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerVisionError.h; sourceTree = "<group>"; };
+		C88DC38E2161A0F2004F33CE /* RecognizeTextInStreamHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeTextInStreamHeaders.m; sourceTree = "<group>"; };
+		C88DC38F2161A0F2004F33CE /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
+		C88DC3902161A0F2004F33CE /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		C88DC3912161A0F2004F33CE /* RecognizeTextHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeTextHeaders.h; sourceTree = "<group>"; };
+		C88DC3922161A0F2004F33CE /* TextRecognitionMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextRecognitionMode.m; sourceTree = "<group>"; };
+		C88DC3932161A0F2004F33CE /* ModelDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDescription.h; sourceTree = "<group>"; };
+		C88DC3942161A0F2004F33CE /* ListModelsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModelsResult.m; sourceTree = "<group>"; };
+		C88DC3952161A0F2004F33CE /* ImageDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDescription.h; sourceTree = "<group>"; };
+		C88DC3962161A0F2004F33CE /* LandmarksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandmarksModel.m; sourceTree = "<group>"; };
+		C88DC3972161A0F2004F33CE /* ImageUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUrl.h; sourceTree = "<group>"; };
+		C88DC3982161A0F2004F33CE /* TextOperationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextOperationResult.h; sourceTree = "<group>"; };
+		C88DC3992161A0F2004F33CE /* FaceRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceRectangle.m; sourceTree = "<group>"; };
+		C88DC39A2161A0F2004F33CE /* DomainModelResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainModelResults.h; sourceTree = "<group>"; };
+		C88DC39B2161A0F2004F33CE /* ImageType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageType.m; sourceTree = "<group>"; };
+		C88DC39C2161A0F2004F33CE /* OcrWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcrWord.m; sourceTree = "<group>"; };
+		C88DC39D2161A0F2004F33CE /* CelebritiesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebritiesModel.m; sourceTree = "<group>"; };
+		C88DC39E2161A0F2004F33CE /* OcrRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcrRegion.h; sourceTree = "<group>"; };
+		C88DC39F2161A0F2004F33CE /* AdultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdultInfo.h; sourceTree = "<group>"; };
+		C88DC3A02161A0F2004F33CE /* VisualFeatureTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualFeatureTypes.h; sourceTree = "<group>"; };
+		C88DC3A12161A0F2004F33CE /* ImageDescriptionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDescriptionDetails.h; sourceTree = "<group>"; };
+		C88DC3A22161A0F2004F33CE /* ImageAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAnalysis.m; sourceTree = "<group>"; };
+		C88DC3A32161A0F2004F33CE /* ImageTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTag.m; sourceTree = "<group>"; };
+		C88DC3A42161A0F2004F33CE /* CelebrityResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebrityResults.m; sourceTree = "<group>"; };
+		C88DC3A52161A0F2004F33CE /* OcrResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcrResult.m; sourceTree = "<group>"; };
+		C88DC3A62161A0F2004F33CE /* OcrLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcrLine.m; sourceTree = "<group>"; };
+		C88DC3A72161A0F2004F33CE /* ImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMetadata.h; sourceTree = "<group>"; };
+		C88DC3A82161A0F2004F33CE /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		C88DC3A92161A0F2004F33CE /* ComputerVisionErrorCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerVisionErrorCodes.m; sourceTree = "<group>"; };
+		C88DC3AA2161A0F2004F33CE /* ColorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorInfo.m; sourceTree = "<group>"; };
+		C88DC3AB2161A0F2004F33CE /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		C88DC3AC2161A0F2004F33CE /* OcrLanguages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcrLanguages.m; sourceTree = "<group>"; };
+		C88DC3AD2161A0F2004F33CE /* TagResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagResult.m; sourceTree = "<group>"; };
+		C88DC3AE2161A0F2004F33CE /* TextOperationStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextOperationStatusCodes.h; sourceTree = "<group>"; };
+		C88DC3AF2161A0F2004F33CE /* RecognitionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognitionResult.h; sourceTree = "<group>"; };
+		C88DC3B02161A0F2004F33CE /* LandmarkResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandmarkResults.h; sourceTree = "<group>"; };
+		C88DC3B12161A0F2004F33CE /* ImageCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCaption.h; sourceTree = "<group>"; };
+		C88DC3B22161A0F2004F33CE /* RecognizeTextHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeTextHeaders.m; sourceTree = "<group>"; };
+		C88DC3B32161A0F2004F33CE /* TextRecognitionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextRecognitionMode.h; sourceTree = "<group>"; };
+		C88DC3B42161A0F2004F33CE /* ModelDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDescription.m; sourceTree = "<group>"; };
+		C88DC3B52161A0F2004F33CE /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		C88DC3B62161A0F2004F33CE /* RecognizeTextInStreamHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeTextInStreamHeaders.h; sourceTree = "<group>"; };
+		C88DC3B72161A0F2004F33CE /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		C88DC3B82161A0F2004F33CE /* ComputerVisionError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerVisionError.m; sourceTree = "<group>"; };
+		C88DC3B92161A0F2004F33CE /* CategoryDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryDetail.m; sourceTree = "<group>"; };
+		C88DC3BA2161A0F2004F33CE /* FaceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDescription.m; sourceTree = "<group>"; };
+		C88DC3BB2161A0F2004F33CE /* Gender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gender.m; sourceTree = "<group>"; };
+		C88DC3E52161A937004F33CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82A7E0621601F7000797EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82A7E0021601F7000797EB0 = {
+			isa = PBXGroup;
+			children = (
+				C88DC3E52161A937004F33CE /* main.m */,
+				C88DC3692161A0F2004F33CE /* ComputerVisionClient.h */,
+				C88DC36A2161A0F2004F33CE /* ComputerVisionClient.m */,
+				C88DC36B2161A0F2004F33CE /* Models */,
+				C82A7E0A21601F7000797EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82A7E0A21601F7000797EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82A7E0921601F7000797EB0 /* azure-libs-for-objectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88DC36B2161A0F2004F33CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C88DC39F2161A0F2004F33CE /* AdultInfo.h */,
+				C88DC3812161A0F2004F33CE /* AdultInfo.m */,
+				C88DC3A82161A0F2004F33CE /* Category.h */,
+				C88DC3782161A0F2004F33CE /* Category.m */,
+				C88DC38C2161A0F2004F33CE /* CategoryDetail.h */,
+				C88DC3B92161A0F2004F33CE /* CategoryDetail.m */,
+				C88DC36D2161A0F2004F33CE /* CelebritiesModel.h */,
+				C88DC39D2161A0F2004F33CE /* CelebritiesModel.m */,
+				C88DC37C2161A0F2004F33CE /* CelebrityResults.h */,
+				C88DC3A42161A0F2004F33CE /* CelebrityResults.m */,
+				C88DC3892161A0F2004F33CE /* ColorInfo.h */,
+				C88DC3AA2161A0F2004F33CE /* ColorInfo.m */,
+				C88DC38D2161A0F2004F33CE /* ComputerVisionError.h */,
+				C88DC3B82161A0F2004F33CE /* ComputerVisionError.m */,
+				C88DC3772161A0F2004F33CE /* ComputerVisionErrorCodes.h */,
+				C88DC3A92161A0F2004F33CE /* ComputerVisionErrorCodes.m */,
+				C88DC3B72161A0F2004F33CE /* Details.h */,
+				C88DC38F2161A0F2004F33CE /* Details.m */,
+				C88DC39A2161A0F2004F33CE /* DomainModelResults.h */,
+				C88DC3702161A0F2004F33CE /* DomainModelResults.m */,
+				C88DC38A2161A0F2004F33CE /* FaceDescription.h */,
+				C88DC3BA2161A0F2004F33CE /* FaceDescription.m */,
+				C88DC3712161A0F2004F33CE /* FaceRectangle.h */,
+				C88DC3992161A0F2004F33CE /* FaceRectangle.m */,
+				C88DC38B2161A0F2004F33CE /* Gender.h */,
+				C88DC3BB2161A0F2004F33CE /* Gender.m */,
+				C88DC37E2161A0F2004F33CE /* ImageAnalysis.h */,
+				C88DC3A22161A0F2004F33CE /* ImageAnalysis.m */,
+				C88DC3B12161A0F2004F33CE /* ImageCaption.h */,
+				C88DC3822161A0F2004F33CE /* ImageCaption.m */,
+				C88DC3952161A0F2004F33CE /* ImageDescription.h */,
+				C88DC3752161A0F2004F33CE /* ImageDescription.m */,
+				C88DC3A12161A0F2004F33CE /* ImageDescriptionDetails.h */,
+				C88DC3802161A0F2004F33CE /* ImageDescriptionDetails.m */,
+				C88DC3A72161A0F2004F33CE /* ImageMetadata.h */,
+				C88DC37A2161A0F2004F33CE /* ImageMetadata.m */,
+				C88DC37D2161A0F2004F33CE /* ImageTag.h */,
+				C88DC3A32161A0F2004F33CE /* ImageTag.m */,
+				C88DC36E2161A0F2004F33CE /* ImageType.h */,
+				C88DC39B2161A0F2004F33CE /* ImageType.m */,
+				C88DC3972161A0F2004F33CE /* ImageUrl.h */,
+				C88DC3722161A0F2004F33CE /* ImageUrl.m */,
+				C88DC3B02161A0F2004F33CE /* LandmarkResults.h */,
+				C88DC3832161A0F2004F33CE /* LandmarkResults.m */,
+				C88DC3742161A0F2004F33CE /* LandmarksModel.h */,
+				C88DC3962161A0F2004F33CE /* LandmarksModel.m */,
+				C88DC3AB2161A0F2004F33CE /* Line.h */,
+				C88DC3882161A0F2004F33CE /* Line.m */,
+				C88DC3762161A0F2004F33CE /* ListModelsResult.h */,
+				C88DC3942161A0F2004F33CE /* ListModelsResult.m */,
+				C88DC3932161A0F2004F33CE /* ModelDescription.h */,
+				C88DC3B42161A0F2004F33CE /* ModelDescription.m */,
+				C88DC3872161A0F2004F33CE /* OcrLanguages.h */,
+				C88DC3AC2161A0F2004F33CE /* OcrLanguages.m */,
+				C88DC3792161A0F2004F33CE /* OcrLine.h */,
+				C88DC3A62161A0F2004F33CE /* OcrLine.m */,
+				C88DC39E2161A0F2004F33CE /* OcrRegion.h */,
+				C88DC36C2161A0F2004F33CE /* OcrRegion.m */,
+				C88DC37B2161A0F2004F33CE /* OcrResult.h */,
+				C88DC3A52161A0F2004F33CE /* OcrResult.m */,
+				C88DC36F2161A0F2004F33CE /* OcrWord.h */,
+				C88DC39C2161A0F2004F33CE /* OcrWord.m */,
+				C88DC3AF2161A0F2004F33CE /* RecognitionResult.h */,
+				C88DC3842161A0F2004F33CE /* RecognitionResult.m */,
+				C88DC3912161A0F2004F33CE /* RecognizeTextHeaders.h */,
+				C88DC3B22161A0F2004F33CE /* RecognizeTextHeaders.m */,
+				C88DC3B62161A0F2004F33CE /* RecognizeTextInStreamHeaders.h */,
+				C88DC38E2161A0F2004F33CE /* RecognizeTextInStreamHeaders.m */,
+				C88DC3862161A0F2004F33CE /* TagResult.h */,
+				C88DC3AD2161A0F2004F33CE /* TagResult.m */,
+				C88DC3982161A0F2004F33CE /* TextOperationResult.h */,
+				C88DC3732161A0F2004F33CE /* TextOperationResult.m */,
+				C88DC3AE2161A0F2004F33CE /* TextOperationStatusCodes.h */,
+				C88DC3852161A0F2004F33CE /* TextOperationStatusCodes.m */,
+				C88DC3B32161A0F2004F33CE /* TextRecognitionMode.h */,
+				C88DC3922161A0F2004F33CE /* TextRecognitionMode.m */,
+				C88DC3A02161A0F2004F33CE /* VisualFeatureTypes.h */,
+				C88DC37F2161A0F2004F33CE /* VisualFeatureTypes.m */,
+				C88DC3B52161A0F2004F33CE /* Word.h */,
+				C88DC3902161A0F2004F33CE /* Word.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82A7E0821601F7000797EB0 /* azure-libs-for-objectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82A7E1021601F7000797EB0 /* Build configuration list for PBXNativeTarget "azure-libs-for-objectiveC" */;
+			buildPhases = (
+				C82A7E0521601F7000797EB0 /* Sources */,
+				C82A7E0621601F7000797EB0 /* Frameworks */,
+				C82A7E0721601F7000797EB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "azure-libs-for-objectiveC";
+			productName = "azure-libs-for-objectiveC";
+			productReference = C82A7E0921601F7000797EB0 /* azure-libs-for-objectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82A7E0121601F7000797EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vladimir Shcherbakov";
+				TargetAttributes = {
+					C82A7E0821601F7000797EB0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C82A7E0421601F7000797EB0 /* Build configuration list for PBXProject "azure-libs-for-objectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C82A7E0021601F7000797EB0;
+			productRefGroup = C82A7E0A21601F7000797EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82A7E0821601F7000797EB0 /* azure-libs-for-objectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82A7E0521601F7000797EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88DC3D82161A0F2004F33CE /* CelebrityResults.m in Sources */,
+				C88DC3C82161A0F2004F33CE /* LandmarkResults.m in Sources */,
+				C88DC3CF2161A0F2004F33CE /* TextRecognitionMode.m in Sources */,
+				C88DC3C62161A0F2004F33CE /* AdultInfo.m in Sources */,
+				C88DC3E22161A0F2004F33CE /* CategoryDetail.m in Sources */,
+				C88DC3C42161A0F2004F33CE /* VisualFeatureTypes.m in Sources */,
+				C88DC3D72161A0F2004F33CE /* ImageTag.m in Sources */,
+				C88DC3DF2161A0F2004F33CE /* RecognizeTextHeaders.m in Sources */,
+				C88DC3CC2161A0F2004F33CE /* RecognizeTextInStreamHeaders.m in Sources */,
+				C88DC3DD2161A0F2004F33CE /* OcrLanguages.m in Sources */,
+				C88DC3E32161A0F2004F33CE /* FaceDescription.m in Sources */,
+				C88DC3C52161A0F2004F33CE /* ImageDescriptionDetails.m in Sources */,
+				C88DC3D22161A0F2004F33CE /* FaceRectangle.m in Sources */,
+				C88DC3CE2161A0F2004F33CE /* Word.m in Sources */,
+				C88DC3BF2161A0F2004F33CE /* ImageUrl.m in Sources */,
+				C88DC3D12161A0F2004F33CE /* LandmarksModel.m in Sources */,
+				C88DC3C12161A0F2004F33CE /* ImageDescription.m in Sources */,
+				C88DC3E02161A0F2004F33CE /* ModelDescription.m in Sources */,
+				C88DC3C32161A0F2004F33CE /* ImageMetadata.m in Sources */,
+				C88DC3D62161A0F2004F33CE /* ImageAnalysis.m in Sources */,
+				C88DC3DA2161A0F2004F33CE /* OcrLine.m in Sources */,
+				C88DC3DC2161A0F2004F33CE /* ColorInfo.m in Sources */,
+				C88DC3C22161A0F2004F33CE /* Category.m in Sources */,
+				C88DC3E12161A0F2004F33CE /* ComputerVisionError.m in Sources */,
+				C88DC3BD2161A0F2004F33CE /* OcrRegion.m in Sources */,
+				C88DC3C92161A0F2004F33CE /* RecognitionResult.m in Sources */,
+				C88DC3D52161A0F2004F33CE /* CelebritiesModel.m in Sources */,
+				C88DC3E42161A0F2004F33CE /* Gender.m in Sources */,
+				C88DC3D42161A0F2004F33CE /* OcrWord.m in Sources */,
+				C88DC3C02161A0F2004F33CE /* TextOperationResult.m in Sources */,
+				C88DC3DE2161A0F2004F33CE /* TagResult.m in Sources */,
+				C88DC3C72161A0F2004F33CE /* ImageCaption.m in Sources */,
+				C88DC3CB2161A0F2004F33CE /* Line.m in Sources */,
+				C88DC3CD2161A0F2004F33CE /* Details.m in Sources */,
+				C88DC3CA2161A0F2004F33CE /* TextOperationStatusCodes.m in Sources */,
+				C88DC3BE2161A0F2004F33CE /* DomainModelResults.m in Sources */,
+				C88DC3DB2161A0F2004F33CE /* ComputerVisionErrorCodes.m in Sources */,
+				C88DC3D02161A0F2004F33CE /* ListModelsResult.m in Sources */,
+				C88DC3D32161A0F2004F33CE /* ImageType.m in Sources */,
+				C88DC3D92161A0F2004F33CE /* OcrResult.m in Sources */,
+				C88DC3E62161A937004F33CE /* main.m in Sources */,
+				C88DC3BC2161A0F2004F33CE /* ComputerVisionClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C82A7E0E21601F7000797EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C82A7E0F21601F7000797EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C82A7E1121601F7000797EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C82A7E1221601F7000797EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82A7E0421601F7000797EB0 /* Build configuration list for PBXProject "azure-libs-for-objectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A7E0E21601F7000797EB0 /* Debug */,
+				C82A7E0F21601F7000797EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82A7E1021601F7000797EB0 /* Build configuration list for PBXNativeTarget "azure-libs-for-objectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A7E1121601F7000797EB0 /* Debug */,
+				C82A7E1221601F7000797EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82A7E0121601F7000797EB0 /* Project object */;
+}
