@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ComputerVisionClient.h"
+#import "ComputerVision/ComputerVisionClient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

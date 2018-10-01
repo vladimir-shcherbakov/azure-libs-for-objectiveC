@@ -164,10 +164,8 @@
 		C82A7E0021601F7000797EB0 = {
 			isa = PBXGroup;
 			children = (
+				C88DC3E82161AC26004F33CE /* ComputerVision */,
 				C88DC3E52161A937004F33CE /* main.m */,
-				C88DC3692161A0F2004F33CE /* ComputerVisionClient.h */,
-				C88DC36A2161A0F2004F33CE /* ComputerVisionClient.m */,
-				C88DC36B2161A0F2004F33CE /* Models */,
 				C82A7E0A21601F7000797EB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -265,6 +263,16 @@
 				C88DC3902161A0F2004F33CE /* Word.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C88DC3E82161AC26004F33CE /* ComputerVision */ = {
+			isa = PBXGroup;
+			children = (
+				C88DC3692161A0F2004F33CE /* ComputerVisionClient.h */,
+				C88DC36A2161A0F2004F33CE /* ComputerVisionClient.m */,
+				C88DC36B2161A0F2004F33CE /* Models */,
+			);
+			path = ComputerVision;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
